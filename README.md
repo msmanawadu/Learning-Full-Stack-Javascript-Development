@@ -1,7 +1,5 @@
 ## MNR (MongoDB, Node.js, React.js)
 
-Video Course (recorded August 2022): **[samer.dev/mnr](https://samer.dev/mnr)**
-
 For an up-to-date development environment configuration guide: **[samer.dev/reactful-ts](https://samer.dev/reactful-ts)**
 
 For general help: **[jscomplete.com/help](https://jscomplete.com/help)**
@@ -41,33 +39,4 @@ For general help: **[jscomplete.com/help](https://jscomplete.com/help)**
     "prettier": "^2.7.1",
     "ts-node-dev": "^2.0.0"
   }
-```
-
-#### Mock Data
-
-```json
-{
-  "contests": [
-    {
-      "id": "cognitive-building-bricks",
-      "categoryName": "Business/Company",
-      "contestName": "Cognitive Building Bricks"
-    },
-    {
-      "id": "educating-people-about-sustainable-food-production",
-      "categoryName": "Magazine/Newsletter",
-      "contestName": "Educating people about sustainable food production"
-    },
-    {
-      "id": "big-data-analytics-for-cash-circulation",
-      "categoryName": "Software Component",
-      "contestName": "Big Data Analytics for Cash Circulation"
-    },
-    {
-      "id": "free-programming-books",
-      "categoryName": "Website",
-      "contestName": "Free programming books"
-    }
-  ]
-}
 ```
