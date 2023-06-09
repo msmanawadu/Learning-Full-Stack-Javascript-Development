@@ -22,3 +22,18 @@ export const fetchContest = async (contestId) => {
     console.log(error);
   }
 };
+
+export const addNewNameToContest = async ({
+  contestId,
+  newNameValue,
+}) => {
+  try {
+    const response = await axios.post(
+      `${API_SERVER_URL}/contest/${contestId}`,
+      { newNameValue },
+    );
+    return response.data.updatedContest;
+  } catch (error) {
+    console.log(error);
+  }
+};
