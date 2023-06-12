@@ -1,3 +1,5 @@
+// Load test data from MongoDB into the Node-Express Web API
+
 import { connectClient, stopClient } from "../server/db";
 
 async function main() {

@@ -1,3 +1,5 @@
+// Node-Express Web API router with routing endpoints and MongoDB controller functions
+
 import cors from "cors";
 import express from "express";
 import { connectClient } from "./db";

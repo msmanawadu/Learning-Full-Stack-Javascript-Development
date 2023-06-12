@@ -16,6 +16,7 @@ module.exports = {
       },
     ],
   },
+  // React Front-end Environment variable configuration
   plugins: [
     new webpack.EnvironmentPlugin({
       HOST: "0.0.0.0",

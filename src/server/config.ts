@@ -1,3 +1,5 @@
+// Node-Express Web Server/API Environment variable configurations
+
 const env = process.env;
 
 // Named exports

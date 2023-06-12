@@ -1,3 +1,7 @@
+/*  Web API client module for sending HTTP API requests/calls to Node-Express Web API. 
+- Utilizes axios HTTP library
+*/
+
 import axios from "axios";
 import { API_SERVER_URL } from "./public-config";
 

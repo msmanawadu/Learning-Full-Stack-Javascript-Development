@@ -1,6 +1,11 @@
+/* MongoDB database server connection client module for the Node-Express Web API.
+- Utilizes MongoDB native driver for Node.js
+*/
+
 import { MongoClient } from "mongodb";
 import { MONGODB_URI, DATABASE_NAME } from "./config";
 
+// To re-use the database connection client
 let connectedClient;
 
 export const connectClient = async () => {

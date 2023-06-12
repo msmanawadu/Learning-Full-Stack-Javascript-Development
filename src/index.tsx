@@ -1,3 +1,5 @@
+// Root module for React JSX
+
 import { createRoot } from "react-dom/client";
 import App from "./components/app";
 
